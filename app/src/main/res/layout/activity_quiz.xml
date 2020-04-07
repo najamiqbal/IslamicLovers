@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:id="@+id/txtTotalQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:text="Questions: 1/10"
+        />
+
+    <!--Score Board and Other things-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtScore"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="Score: 00"
+
+            android:textColor="#0E0606"
+            android:textSize="22sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtViewTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#181414"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="22sp"
+
+            android:layout_marginTop="5dp"
+            android:text="00:30"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        >
+
+
+        <TextView
+            android:id="@+id/txtQuestionContainer"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="100dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:textColor="#131111"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/radio_button1"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:textSize="18sp"
+                android:textColor="#141414"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:background="@drawable/buttondesign"
+                android:button="@null"
+                android:freezesText="true"
+                android:layout_marginTop="10dp"
+                android:padding="12dp"
+
+                />
+
+            <RadioButton
+                android:id="@+id/radio_button2"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:textSize="18sp"
+                android:textColor="#141414"
+
+                android:textAlignment="center"
+                android:button="@null"
+                android:textStyle="bold"
+                android:freezesText="true"
+                android:background="@drawable/buttondesign"
+                android:layout_marginTop="10dp"
+                android:padding="12dp"
+
+                />
+
+            <RadioButton
+                android:id="@+id/radio_button3"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:textSize="18sp"
+                android:textColor="#141414"
+                android:textAlignment="center"
+                android:background="@drawable/buttondesign"
+                android:button="@null"
+                android:textStyle="bold"
+                android:freezesText="true"
+                android:layout_marginTop="10dp"
+                android:padding="12dp"
+
+
+                />
+
+            <RadioButton
+                android:id="@+id/radio_button4"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:button="@null"
+                android:freezesText="true"
+                android:background="@drawable/buttondesign"
+                android:textSize="18sp"
+                android:textColor="#141414"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:padding="12dp"
+
+
+                />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="274dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttondesign"
+        android:padding="20dp"
+        android:textColor="#0B7C11"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        />
+
+
+
+</LinearLayout>

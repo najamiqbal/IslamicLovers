@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_03"
+                android:text="@string/button03"
+                android:textColor="#EC2020"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_02"
+                android:text="@string/button02"
+                android:textColor="#D57808"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_1"
+                android:text="@string/button01"
+                android:textColor="#C59213"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_06"
+                android:text="@string/button06"
+                android:textColor="#AEB416"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_05"
+                android:text="@string/button05"
+                android:textColor="#82A819"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_04"
+                android:text="@string/button04"
+                android:textColor="#36660D"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_02"
+                android:text="@string/button09"
+                android:textColor="#20E912"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_1"
+                android:text="@string/button08"
+                android:textColor="#3BEB98"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_07"
+                android:text="@string/button07"
+                android:textColor="#17AC9F"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_05"
+                android:text="@string/button012"
+                android:textColor="#175AAC"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_04"
+                android:text="@string/button011"
+                android:textColor="#7039A7"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_03"
+                android:text="@string/button010"
+                android:textColor="#9D7BE9"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_1"
+                android:text="@string/button015"
+                android:textColor="#EE6AF8"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#F809C3"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_07"
+                android:text="@string/button014"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="#C2097E"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_06"
+                android:text="@string/button013"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#3BBB36"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_02"
+                android:text="@string/button018"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_03"
+                android:text="@string/button017"
+                android:textColor="#85E630"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_02"
+                android:text="@string/button016"
+                android:textColor="#79EE8D"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:textColor="#45E0F5"
+                android:background="@drawable/haroof_04"
+                android:text="@string/button021"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#0CA9BE"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_06"
+                android:text="@string/button020"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="#21BDA5"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_05"
+                android:text="@string/button019"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_07"
+                android:text="@string/button024"
+                android:textColor="#215FBD"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_02"
+                android:text="@string/button023"
+                android:textColor="#4C79EC"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_1"
+                android:text="@string/button022"
+                android:textColor="#26BAD5"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:textColor="#E133EE"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:text="@string/button025"
+                android:background="@drawable/haroof_03"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#9A50A0"
+                android:layout_weight="1"
+                android:text="@string/button026"
+                android:background="@drawable/haroof_02"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="#F307C1"
+                android:layout_weight="1"
+                android:text="@string/button027"
+                android:background="@drawable/haroof_1"
+                android:textSize="44dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:textColor="#D11E48"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:text="@string/button028"
+                android:background="@drawable/haroof_05"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#D3607B"
+                android:layout_weight="1"
+                android:text="@string/button029"
+                android:background="@drawable/haroof_02"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#990E1E"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:text="@string/button030"
+                android:background="@drawable/haroof_04"
+                android:textSize="44dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="wrap_content"
+                android:textColor="#29CC4B"
+                android:layout_height="75dp"
+                android:text="@string/button31"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_1"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:text="@string/button32"
+                android:textColor="#45F047"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_02"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:textColor="#5EF37C"
+                android:layout_marginLeft="30dp"
+                android:text="@string/button33"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_03"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:text="@string/button34"
+                android:textColor="#B9C06C"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_04"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:textColor="#CEDA5B"
+                android:text="@string/button35"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_05"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/button36"
+                android:textColor="#778034"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_06"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:text="@string/button37"
+                android:textColor="#CC8650"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_1"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button38"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_02"
+                android:text="@string/button38"
+                android:textColor="#F0A872"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:text="@string/button39"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="#F89041"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_03"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="wrap_content"
+                android:text="@string/button40"
+                android:layout_height="75dp"
+                android:textColor="#CEA1F5"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_04"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:text="@string/button41"
+                android:layout_marginLeft="30dp"
+                android:textColor="#B165F3"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_05"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button42"
+                android:layout_width="wrap_content"
+                android:text="@string/button42"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="#6D23AD"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_02"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="wrap_content"
+                android:text="@string/button43"
+                android:layout_height="75dp"
+                android:textColor="#80EECF"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_06"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/button44"
+                android:textColor="#4CB395"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_07"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button45"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:text="@string/button45"
+                android:layout_marginLeft="30dp"
+                android:textColor="#25F7BA"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_1"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button46"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_02"
+                android:text="@string/button46"
+                android:textColor="#B8EE79"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button47"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:text="@string/button47"
+                android:layout_marginLeft="30dp"
+                android:textColor="#9FDA58"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_03"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button48"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:textColor="#6DB31A"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/button48"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_04"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button49"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:textColor="#FDB243"
+                android:layout_marginLeft="30dp"
+                android:text="@string/button49"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_05"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button50"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#DA8C19"
+                android:text="@string/button50"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_06"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button51"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/button51"
+                android:textColor="#F0C689"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_07"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button52"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/button52"
+                android:textColor="#F2B7CA13"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_1"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button53"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:textColor="#91A00A"
+                android:layout_marginLeft="30dp"
+                android:text="@string/button53"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_02"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button54"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:textColor="#C0CE34"
+                android:layout_marginLeft="30dp"
+                android:text="@string/button54"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_03"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button55"
+                android:layout_width="wrap_content"
+                android:text="@string/button55"
+                android:layout_height="75dp"
+                android:textColor="#EC80A5"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_04"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button56"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:text="@string/button56"
+                android:textColor="#F5C6D6"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_05"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button57"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:textColor="#F0125E"
+                android:text="@string/button57"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_06"
+                android:textSize="44dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button58"
+                android:layout_width="wrap_content"
+                android:textColor="#F79609"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/button58"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_07"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button59"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:textColor="#B68031"
+                android:layout_marginLeft="30dp"
+                android:text="@string/button59"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_1"
+                android:textSize="44dp" />
+
+            <Button
+                android:id="@+id/button60"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#F8B148"
+                android:layout_marginRight="30dp"
+                android:text="@string/button60"
+                android:layout_weight="1"
+                android:background="@drawable/haroof_02"
+                android:textSize="44dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
